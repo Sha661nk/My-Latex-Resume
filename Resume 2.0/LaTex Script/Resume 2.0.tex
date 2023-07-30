@@ -1,0 +1,242 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\fontsize{11}{10}\selectfont #1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+
+
+\begin{center}
+    {\huge \scshape Shashank Gupta} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +1-862-318-1725 $|$ Kearny, NJ 07032 \\ \vspace{1pt}
+     \href{mailto:shashank.and.gupta@gmail.com}{\raisebox{-0.2\height}\faEnvelope\
+     {\color{blue}\underline{shashank.and.gupta@gmail.com}}} $|$ 
+    \href{https://www.linkedin.com/in/shashank47/}{\raisebox{-0.2\height}\faLinkedin\ {\color{blue}\underline{linkedin.com/in/shashank47}}} $|$
+    \href{https://github.com/Sha661nk}{\raisebox{-0.2\height}\faGithub\ {\color{blue}\underline{github.com/Sha661nk}}} $|$ \href{https://www.kaggle.com/wrecked22}{\raisebox{-0.1\height}\faKaggle\ {\color{blue}\underline{kaggle.com/wrecked22}}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rutgers University, New Brunswick}{Sep 2022 -- Dec 2023}
+      {Masters in Information Technology \& Analytics, (Received Merit Scholarship)}{GPA: 4.0/4.0}
+
+\vspace{-4pt}
+
+    %-------GPA: 3.7/4.0 (Expected)------  
+    \resumeSubheading
+      {Indian Institute of Technology, Kanpur}{Jul 2015 -- May 2019}
+      {Bachelor of Technology in Electrical Engineering}{GPA: 3.4/4.0}
+  \resumeSubHeadingListEnd
+
+ \vspace{-12pt}
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.0in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, R, SQL, Cypher (CQL)} \\
+      \vspace{1pt}
+     \textbf{Tools}{: Jupyter Notebook, R Studio, SIMCA, PostgreSQL, MySQL, Power BI, Oracle, AWS Sagemaker, AWS Lambda, AWS DynamoDB, Tableau, OSIsoft PI, Neo4j, MS Excel, Git \& Github} \\
+      \vspace{1pt}
+     \textbf{Frameworks \& Libraries}{: Pandas, NumPy, scikit-learn, PySpark, Heroku, Flask, pytorch, Matplotlib, NLTK, SpaCy, BeautifulSoup, ggplot2, CV2, Seaborn, plotly, pytesseract, Gensim, Keras, TensorFlow, OpenCV} \\
+      \vspace{1pt}
+
+    }}
+ \end{itemize}
+ \vspace{-13pt}
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sanofi US}{Jun 2023 -- Present}
+      {Data Science PAT Co-Op (Skillset: Chemometric, Machine Learning, Data Science, Python, SQL)}{Boston, MA, US}
+      \resumeItemListStart
+        \resumeItem{Implemented Machine Learning and Chemometric techniques to create a generalized, automated pipeline for predicting process quality attributes using the high dimensional Raman Spectroscopy data.}
+        \resumeItem{Developed a spectral data pre-processing pipeline, utilizing Grid-Search, PLS model, and custom metrics to identify and apply optimal set of data pre-processing techniques ultimately reducing RMSECV by 20\%.}
+        \resumeItem{Performed Feature Selection by leveraging the Wet-Lab experiments and employing three feature selection techniques, including Filter, Wrapper, and Embedded methods.}
+    \resumeItemListEnd
+
+\vspace{-4pt}
+
+    \resumeSubheading
+      {I-DSLA - Rutgers University}{Apr 2023 -- Present}
+      {Data Science Researcher (Skillset: Generative AI, Neural Networks, R, Python)}{New Brunswick, NJ, US}
+      \resumeItemListStart
+        \resumeItem{Evaluated three generative models including Variational Auto Encoders (VAE), CT-GAN, and Bayesian Network to assess their effectiveness in preserving the missing data distribution in generated synthetic data.}
+        \resumeItem{Developed a data evaluation pipeline to assess the quality of synthetic data using
+        t-SNE plots, Wasserstein Distance, KL Divergence, REM, RESD, and PCD metrics.}
+        \resumeItem{Conducted a comprehensive evaluation on Generative models, revealing effectiveness of Bayesian Network over CT-GAN in generating synthetic data and notably preserving the missing data distribution by a significant margin.}
+    \resumeItemListEnd
+
+\vspace{-4pt}
+
+    \resumeSubheading
+      {LTI-Mindtree}{Jul 2019 -- Sep 2022}
+      {Senior Data Scientist (Skillset: Machine Learning, Data Science, AWS, Python, R, SQL, Tableau)}{Pune, MH, IN}
+      \resumeItemListStart
+        \resumeItem{Designed and deployed a machine learning model using Logistic Regression to predict steam generator failures, resulting in a 40\% reduction in maintenance costs and an improved mean time between failures (MTBF) of 20\%.}
+        \resumeItem{Collaborated with three members to devise a pump health monitoring solution to plan the preventive maintenance of the pumps leveraging Python for RUL modeling and Tableau for visualization \& dashboarding.}
+        \resumeItem{Created automated data cleaning processes using ETL pipelines and efficiently stored the cleaned IoT event data in the OSI PI-historian database, significantly reducing manual processing time by 30\%.}
+
+        \resumeItem{Constructed a Python script to completely automate the process of equipment name extraction from Industrial CAD drawings employing pytesseract and CV2 packages, eliminating manual interventions.}
+        \resumeItem{Managed a team of three graduate engineer trainees, helped set goals and objectives, providing feedback and support.}
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-15pt}
+%-----------PROJECTS-----------
+\section{Academic Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    %-----------
+    \resumeProjectHeading 
+         {\textbf{ETL Pipeline For Keyword Extraction} $|$ \emph{Python, AWS, Java-Script, \href{https://github.com/Sha661nk/ETL-Pipeline-for-Keyword-Extraction} {\color{blue}\underline{GitHub Link}}}}{Dec 2022}
+          \resumeItemListStart
+            \resumeItem{Constructed an ETL pipeline, utilizing AWS Lambda, DynamoDB, and S3 bucket, to extract relevant keywords from multiple websites based on user input which helped boost the SEO score of new websites.}
+          \resumeItemListEnd
+    %------------
+    \vspace{-21pt}
+    \resumeProjectHeading
+        {\textbf{NASA Turbo-Jet Engine Failure Prediction} $|$ \emph{Python, Jupyter-Notebook, \href{https://github.com/Sha661nk/NASA-Jet-Engine-Failure-Prediction} {\color{blue}\underline{GitHub Link}}}}{Nov 2022}
+          \resumeItemListStart
+            \resumeItem{Designed and built a predictive maintenance solution for Jet Engines utilizing Logistic Regression, Support Vector Classifier, and Decision Tree algorithms, preventing expected failures by 20\% and improving reliability.}
+          \resumeItemListEnd 
+        
+     %-------------
+     \vspace{-23pt}
+     \resumeProjectHeading
+          {\textbf{Pneumonia Detection using Transfer Learning} $|$ \emph{Python, Pytorch, \href{https://github.com/Sha661nk/Pneumonia-Detection} {\color{blue}\underline{GitHub Link}}}} {Oct 2022}
+          \resumeItemListStart
+            \resumeItem{Implemented a pretrained ResNet50 architecture to detect pneumonia in chest x-rays with 85\% Recall.}
+          \resumeItemListEnd
+     %--------------
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------INVOLVEMENT---------------
+\section{Honors \& Awards}
+            \resumeItemListStart
+                \resumeItem{Received Dean’s MITA Merit Scholarship at Rutgers Business School.}
+                \vspace{-2.0mm}
+                \resumeItem{Ranked among the top 5\% of Data Scientists in the Kaggle Community.}
+                \vspace{-2.0mm}
+                \resumeItem{Elected as the Coordinator of DESCON Hobby Group under the Science \& Technology Council, IIT Kanpur.}
+            \resumeItemListEnd
+\end{document}
